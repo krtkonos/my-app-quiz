@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otázka 1"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Otázka"
+        android:textSize="24sp"
+        android:layout_marginTop="60dp"/>
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="@dimen/answerBtnWidth"
+        android:layout_height="@dimen/answerBtnHeight"
+        android:text="Odpověď 1"
+        android:layout_marginTop="80dp"
+        android:onClick="checkAnswer"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="@dimen/answerBtnWidth"
+        android:layout_height="@dimen/answerBtnHeight"
+        android:text="Odpověď 2"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="@dimen/answerBtnWidth"
+        android:layout_height="@dimen/answerBtnHeight"
+        android:text="Odpověď 3"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="@dimen/answerBtnWidth"
+        android:layout_height="@dimen/answerBtnHeight"
+        android:text="Odpověď 4"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"
+        tools:ignore="OnClick" />
+    
+
+</LinearLayout>
